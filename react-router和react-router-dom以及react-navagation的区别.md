@@ -25,16 +25,16 @@ var Switch = require('react-router').Switch
 两者都依赖react-router，所以两者的package.json都会携带react-router。
 
 ## 各路由的功能：
-### (1).react-router: 
+### (1) react-router: 
 实现了路由的核心功能
 
-### (2).react-router-dom: 
+### (2) react-router-dom: 
 基于react-router，加入了在浏览器运行环境下的一些功能，例如：Link组件，会渲染一个a标签（在浏览器审查元素可以看见a）; BrowserRouter和HashRouter组件，前者使用pushState和popState事件构建路由，后者使用window.location.hash和hashchange事件构建路由。
 
-### (3).react-router-native: 
+### (3) react-router-native: 
 基于react-router，类似react-router-dom，加入了react-native运行环境下的一些功能。
 
-### (4).react-navigation：
+### (4) react-navigation：
 react-navigation默认提供的比如Header、StackNavigator和TabNavigator都是开发app时必备的，而这些react-router不提供。
 
 
