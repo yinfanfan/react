@@ -24,7 +24,7 @@ var Switch = require('react-router').Switch
 同样的，如果你写的是个**React Native应用**（也就是APP）， react-router-native会比react-router更合适。
 两者都依赖react-router，所以两者的package.json都会携带react-router。
 
-各路由的功能：
+## 各路由的功能：
 ### react-router: 
 实现了路由的核心功能
 
