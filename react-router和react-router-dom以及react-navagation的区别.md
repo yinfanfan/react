@@ -5,14 +5,10 @@ react的路由
 ```
 $ npm install --save react-router
 ```
-Note: This package provides the core routing functionality for React Router, but you might not want to install it directly. 
-If you are writing an application that will run in the browser, you should instead install react-router-dom. Similarly, 
-if you are writing a React Native application, you should instead install react-router-native.
-Both of those will install react-router as a dependency.
-Then with a module bundler like webpack, use as you would anything else:
 注意：本安装包提供React Router的核心功能，你可能不需要直接安装它。如果你写的是浏览器端项目，安装react-router-dom会更好。
 同样的，如果你写的是个React Native应用（也就是APP）， react-router-native会比react-router更合适。两者都依赖react-router，
 所以两者的安装都会携带react-router。
+
 3种引入方式：
 ```
 //1.es6
