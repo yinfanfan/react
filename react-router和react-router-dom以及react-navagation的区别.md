@@ -29,7 +29,7 @@ var Switch = require('react-router').Switch
 实现了路由的核心功能
 
 ### (2) react-router-dom: 
-基于react-router，加入了在浏览器运行环境下的一些功能，比react-router多出了 <Link> <BrowserRouter> 这样的 DOM 类组件。例如：Link组件，会渲染一个a标签（在浏览器审查元素可以看见a），<Link>为你的应用提供声明式，无障碍导航; 提供的BrowserRouter和HashRouter组件，前者使用pushState和popState事件构建路由，后者使用window.location.hash和hashchange事件构建路由。 
+基于react-router，加入了在浏览器运行环境下的一些功能，比react-router多出了 `<Link> <BrowserRouter>` 这样的 DOM 类组件。例如：Link组件，会渲染一个a标签（在浏览器审查元素可以看见a），`<Link>`为你的应用提供声明式，无障碍导航; 提供的BrowserRouter和HashRouter组件，前者使用pushState和popState事件构建路由，后者使用window.location.hash和hashchange事件构建路由。 
 
 ### (3) react-router-native: 
 基于react-router，类似react-router-dom，加入了react-native运行环境下的一些功能。
