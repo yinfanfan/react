@@ -39,4 +39,7 @@ react-navigation默认提供的比如Header、StackNavigator和TabNavigator都�
 
 
 参考链接：
+
 <https://github.com/ReactTraining/react-router/blob/master/packages/react-router/README.md>
+
+https://github.com/mrdulin/blog/issues/42
